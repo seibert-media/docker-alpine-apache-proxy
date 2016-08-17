@@ -4,7 +4,7 @@ Alpine based system with apache as reverse proxy.
 
 ## Getting started
 
-Start Confluence or other webapplication:
+Start Confluence or other web application:
 ```
 docker run -d --name confluence seibertmedia/atlassian-confluence
 ```
