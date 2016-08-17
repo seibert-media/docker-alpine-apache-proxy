@@ -1,0 +1,13 @@
+<VirtualHost *:80>
+	ServerName confluence
+
+	ProxyRequests Off
+
+	<Proxy *>
+		Order deny,allow
+		Allow from all
+	</Proxy>
+
+	ProxyPass          /       http://confluence:8090/
+	ProxyPassReverse   /       http://confluence:8090/
+</VirtualHost>
