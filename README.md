@@ -1,4 +1,4 @@
-# alpine-apache-krb
+# alpine-apache-proxy
 
 Alpine based system with apache as reverse proxy.
 
